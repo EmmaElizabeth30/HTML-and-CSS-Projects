@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Space Station Resort</title>
+	<meta charset="utf8">
+<title>Space Station | Resort</title>
+<link rel="stylesheet" href="./css/shared/.css">
+<link rel="stylesheet" href="./css/animations.css">
 </head>
 <body>
 <!-- Start Nav -->
-<div>
-	<div>
-		<ul>
+<div class="wrap">
+	<div class="menu-container">
+		<ul class="menu">
 			<a href="#home" id="link"><li>Home</li></a>
 			<a href="#gallery" id="link"><li>Gallery</li></a>
-			<a href="#reservations"id="link"><li>Reservation</li></a>
+			<a href="#contact"id="link"><li>Reservation</li></a>
 		</ul>
 	</div>
 </div>
@@ -18,121 +21,124 @@
 
 <!--Start Home-->
 <div id="home">
-	<div>
-		<h1>The Space Station</h1>
+	<div class="container">
+		<div class="text-center">
+			<span class="head-main">The Space Station</span>
+		</div>
 	</div>
 </div>
 <!-- End Home-->
 
 <!-- Start Gallery-->
-<section>
-	<div id="gallery">
+<section id="gallery">
+	<div class="container">
 		<h1>Gallery</h1>
-	</div>
+		<div class="flex-container">
+
 
 <!--Photo Container 1-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_1.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
 <!-- End of photo container-->	
 
 <!--Photo Container 2-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_2.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
 <!-- End of photo container-->	
 
 <!--Photo Container 3-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_3.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
 <!-- End of photo container-->	
 
 <!--Photo Container 4-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_4.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
 <!-- End of photo container-->	
 
 <!--Photo Container 5-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_5.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
 <!-- End of photo container-->	
 
 <!--Photo Container 6-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_6.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
 <!-- End of photo container-->	
 
 <!--Photo Container 7-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_7.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
 <!-- End of photo container-->	
 
 <!--Photo Container 8-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_8.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
 <!-- End of photo container-->	
 
 <!--Photo Container 9-->	
-<div>
-	<div>
+<div class="photo-container">
+	<div class="photo">
 	<img src="./images/thumb/thumb_9.jpeg" alt="image of space">
-		<div>
+		<div class="photo-overlay">
 			<h3>Click to enlarge</h3>
-			<p>We have several space launches departing daily. Booking your flight today!</p>
+			<p>We have several space launches departing daily. Book your flight today!</p>
 		</div>
 	</div>
 </div>
@@ -145,14 +151,15 @@
 <!-- Start RSVP -->
 <section>
 	<div id="contact">
-		<div>
-			<h1>Reservations</h1>
-			</div>
-					<h2><span>Your adventure is just around the moon!.</span>
+		<div class="container">
+			<div class="heading-padding">
+			<h1 class="heading-padding">Reservations</h1>
+			<div class="reservation">
+					<h2><span>Your adventure is just around the moon!</span>
 					<br> Reserve your flight today!</h2>
-					<p>Please provide us with your basic contact information</p>
-				</div>
-				<div>
+					<p class="rsvp-text">Please provide us with your basic contact information</p>
+				
+				<div class="form-rsvp">
 					<form action="" method="post">
 					<input class="reserve" type="text" value="First Name">
 					<input class="reserve" type="text" value="Last Name">
@@ -161,17 +168,17 @@
 					<div class="form-spacer">
 					<label class="terms">Terms and Conditions</label>
 				</div>
-				<div>
+				<div class="submit">
 					<input type="submit" value="submit">
 				</div>
 			</form>
 		</div>
 	</div>
 </section>
-<!-- End RSVP>
+<!-- End RSVP-->
 
 <!-- Footer-->
-<div>
+<div id="footer">
 	www.thespacestation.space | &copy; 2024
 </div>
 <!-- End Footer-->
